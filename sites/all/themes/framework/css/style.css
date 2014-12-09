@@ -90,11 +90,11 @@ p {
   margin: 0 0 1.5em 0;
 }
 
-a { color: #069; text-decoration: none; }
+a { color: #000; text-decoration: none; }
 
 a:visited { color: #309; }
 
-a:hover, a:active, li a.active  { color: #39f; }
+a:hover, a:active, li a.active  { color: #888; }
 
 a:focus { outline: thin dotted; }
 
@@ -207,10 +207,10 @@ body.sidebar-second #sidebar-second {
   position: relative;
 }
 
-#header #logo {
+/*#header #logo {
   float: left;
   margin: 0 1em 1.5em 0;
-}
+}*/
 
 #header #site-name-slogan {
   float: left;
@@ -251,15 +251,15 @@ body.sidebar-second #sidebar-second {
 }
 
 #navigation ul#main-menu li {
-  float: left;
+  /*float: left;*/
   margin: 0;
   padding: 0;
 }
 
-#navigation ul#main-menu li a {
+/*#navigation ul#main-menu li a {
   display: block;
   padding: 0 2em 0 0;
-}
+}*/
 
 #navigation ul#secondary-menu {
   clear: both;
@@ -481,8 +481,9 @@ ul.secondary a.active {
 
 /* display block */
 .display-block { display: block; }
+/*
 #header,#main {
     width: 980px;
     margin: 0 auto;
     padding: 0;
-}
+}*/
