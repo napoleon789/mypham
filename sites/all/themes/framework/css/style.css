@@ -37,7 +37,7 @@ Equation for font sizing:
  * 0.RESET 
  */
 
-@import "reset.css";
+@import "../reset.css";
 
 /**
  * 1.GLOBAL

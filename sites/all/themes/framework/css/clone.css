@@ -55,3 +55,24 @@
     text-transform: uppercase;
     padding-right:65px ;
 }
+/* main style*/
+#main {width: 1600px; margin: 0 auto;}
+#main .panel-2col-stacked{width: 1150px; margin: 0 auto;}
+#main .panel-display .center-wrapper { display: table; width: 100%;}
+#main .panel-display .center-wrapper .panel-panel{display: table-cell; float: none;width:auto;}
+#main .panel-display .center-wrapper .panel-col-first{ min-width: 300px;}
+#main .panel-display .center-wrapper .panel-col-first h2.pane-title{line-height: 22px; font-family: Times New Roman; font-size: 24px; padding: 10px 0 10px 15px;margin-right: 25px;color: #111;background: #eee;}
+#main .panel-display .center-wrapper .panel-col-first .pane-content ul{margin: 0;padding: 0 25px 0 0;}
+#main .panel-display .center-wrapper .panel-col-first .pane-content ul li{ border-bottom: 1px solid #e9e9e9;color: #222;font-weight: 600;font-size: 16px;margin-bottom: 5px;padding: 5px 0 5px 15px;-webkit-transition: 250ms linear all;transition: 250ms linear all; list-style: none;}
+#main .panel-display .center-wrapper .panel-col-first .pane-content ul li a{ color: #222;font-family: Times New Roman; font-size: 16px;}
+#main .panel-display .center-wrapper .panel-col-first .pane-content ul li a:hover{color: #888;}
+
+
+
+#main .panel-display .center-wrapper .panel-col-last h2.pane-title{line-height: 22px; font-family: Times New Roman; font-size: 24px; padding: 10px 0;margin-right: 25px;color: #111;}
+#main .panel-display .center-wrapper .panel-col-last tr td .views-field-title,
+#main .panel-display .center-wrapper .panel-col-last tr td .views-field-field-price {display: none;}
+#hover {}
+#hover .field-content{ text-transform: uppercase;text-align: center;Times New Roman; font-size: 16px; font-weight: 300; color:#e5663f;}
+#hover .field-content a{padding-top: 20px;color: #ddd; display: block;}
+#hover .field-content a:hover{color: #ddd;}
