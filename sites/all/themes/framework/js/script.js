@@ -7,7 +7,7 @@
 
     /**
      */
-    Drupal.behaviors.simpleTestMenuCollapse = {
+    /*Drupal.behaviors.simpleTestMenuCollapse = {
         attach: function (context, settings) {
             $(document).ready(function() {
                 //append title and price before mouse hover item
@@ -21,13 +21,13 @@
                     console.log(tpm);
                 });
                 //remove title and price before mouse leave item
-                /*$( "#hover" ).live( "mouseleave", function() {
+                $( "#hover" ).live( "mouseleave", function() {
                     console.log("mouseleave");
                     $(this).remove();
-                });*/
+                });
             });
 
         }
-    };
+    };*/
 
 })(jQuery);

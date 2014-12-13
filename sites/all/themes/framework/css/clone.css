@@ -56,8 +56,8 @@
     padding-right:65px ;
 }
 /* main style*/
-#main {width: 1600px; margin: 0 auto;}
-#main .panel-2col-stacked{width: 1150px; margin: 0 auto;}
+#main {width: 980px; margin: 0 auto;}
+#main .panel-2col-stacked{width: 980px; margin: 0 auto;}
 #main .panel-display .center-wrapper { display: table; width: 100%;}
 #main .panel-display .center-wrapper .panel-panel{display: table-cell; float: none;width:auto;}
 #main .panel-display .center-wrapper .panel-col-first{ min-width: 300px;}
@@ -67,12 +67,16 @@
 #main .panel-display .center-wrapper .panel-col-first .pane-content ul li a{ color: #222;font-family: Times New Roman; font-size: 16px;}
 #main .panel-display .center-wrapper .panel-col-first .pane-content ul li a:hover{color: #888;}
 
+#main .panel-2col-stacked .panel-col-last .inside{margin: 0}
 
 
-#main .panel-display .center-wrapper .panel-col-last h2.pane-title{line-height: 22px; font-family: Times New Roman; font-size: 24px; padding: 10px 0;margin-right: 25px;color: #111;}
+/*#main .panel-display .center-wrapper .panel-col-last tr td .views-field-field-image{margin: 0 8px;}*/
+
 #main .panel-display .center-wrapper .panel-col-last tr td .views-field-title,
-#main .panel-display .center-wrapper .panel-col-last tr td .views-field-field-price {display: none;}
+#main .panel-display .center-wrapper .panel-col-last tr td .views-field-field-price {text-align: center;line-height: 16px; font-family: Times New Roman; font-size: 16px; padding: 3px 0;margin-right: 25px;color: #111;}
+#main .panel-display .center-wrapper .panel-col-last tr td .views-field-field-price {padding-bottom: 15px;}
+#main .panel-display .center-wrapper .panel-col-last tr td .views-field-field-image a{display: block;text-align: center;}
 #hover {}
-#hover .field-content{ text-transform: uppercase;text-align: center;Times New Roman; font-size: 16px; font-weight: 300; color:#e5663f;}
+/*#hover .field-content{ text-transform: uppercase;text-align: center;font-family: Times New Roman; font-size: 16px; font-weight: 300; color:#e5663f;}*/
 #hover .field-content a{padding-top: 20px;color: #ddd; display: block;}
 #hover .field-content a:hover{color: #ddd;}
